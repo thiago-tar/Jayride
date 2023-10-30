@@ -9,7 +9,7 @@ namespace Jayride.Api.Controllers
     [ApiController]
     public class LocationController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("{ip}")]
         public async Task<ActionResult<IpLocation>> Get(string ip)
         {
             try

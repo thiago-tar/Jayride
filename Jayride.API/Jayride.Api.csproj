@@ -18,4 +18,8 @@
     <ProjectReference Include="..\Jayride.IOC\Jayride.IOC.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<InternalsVisibleTo Include="Jayride.Test"/>
+	</ItemGroup>
+
 </Project>
